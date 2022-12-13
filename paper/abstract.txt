@@ -1,7 +1,33 @@
-Foraging task, i.e. the collective search, collection and transport of objects to specific storage site(s), can model a large number of robotic application, such as search and rescue, wildlife tracking, harvesting, mining and waste management.
-In such situations, one could take advantage of distributed consunsus protocols to achieve cooperative decision making, and obtain robustness to single point failures and scalability.
-In real world cases, it may be necessary to let the swarm freely operate in the environment without constant monitoring; moreover, in the case of open swarms, where different parties could add robots to the swarm with potentially competing interests, threating cooperation.
-A blockchain-based consensus protocol using smart contracts exchanged on an information market, where robots an buy and sell data of resources they gathered autonomously, can be used to make cooperation the most profitable behaviour for every agent and enabling the swarm to work seamelessly even in presence of malfunctioning or malicious robots ("byzantine").
-This thesis studies the emergence of specific roles among the members of an homogeneous robotic swarm, controlled with economic rules, in the context of a foraging task. Wealth is granted to robots helping hte swarm in its mission, and exchanged in the distributed market.
-Initially, we introduce the concept of reputation concept, studying how wealth can be used as its metrics, and how robots can exchange wealth to obtain an effective collective behaviour. A cost for motion is considered, asymmetric with respect to the one for selling the information: this disparity may cause a separation of the swarm in sub-groups executing different types of actions. Trough market dynamics (supply and demand), we want to implement an efficient self-organization algorithm for deviding the swarm in groups in the most effective way, in the case the environment is complex, with obstacles and forced paths.
-Afterwards, we investigate how this economic rules, combined with a cryptographic protocol and smart contracts, can make the swarm resilient to emblematic byzantine behaviours, such as the creation of alternative channels to sell informations not compliant to the terms of the contracts ("bribery attacks") or the sale of fabricated information with the intent of maximizing personal gain without helping the collectivity.
+Foraging task, i.e. the collective search, collection and transport of objects to 
+specific storage site(s), can model a large number of robotic application, such as 
+search and rescue, wildlife tracking, harvesting, mining and waste management. 
+In such situations, one could take advantage of distributed consunsus protocols to 
+achieve cooperative decision making, and obtain robustness to single point failures and 
+scalability. 
+In real world cases, it may be necessary to let the swarm freely operate in the 
+environment without constant monitoring; moreover, in the case of open swarms, where 
+different parties could add robots to the swarm with potentially competing interests, 
+threating cooperation. 
+A blockchain-based consensus protocol using smart contracts exchanged on an information 
+market, where robots an buy and sell data of resources they gathered autonomously, can 
+be used to make cooperation the most profitable behaviour for every agent and enabling 
+the swarm to work seamelessly even in presence of malfunctioning or malicious robots 
+("byzantine"). 
+This thesis studies the emergence of specific roles among the members of an homogeneous 
+robotic swarm, controlled with economic rules, in the context of a foraging task. 
+Wealth is granted to robots helping hte swarm in its mission, and exchanged in the 
+distributed market. 
+Initially, we introduce the concept of reputation concept, studying how wealth can be 
+used as its metrics, and how robots can exchange wealth to obtain an effective 
+collective behaviour. A cost for motion is considered, asymmetric with respect to the 
+one for selling the information: this disparity may cause a separation of the swarm in 
+sub-groups executing different types of actions. Trough market dynamics (supply and 
+demand), we want to implement an efficient self-organization algorithm for deviding the 
+swarm in groups in the most effective way, in the case the environment is complex, with 
+obstacles and forced paths. 
+Afterwards, we investigate how this economic rules, combined with a cryptographic 
+protocol and smart contracts, can make the swarm resilient to emblematic byzantine 
+behaviours, such as the creation of alternative channels to sell informations not 
+compliant to the terms of the contracts ("bribery attacks") or the sale of fabricated 
+information with the intent of maximizing personal gain without helping the 
+collectivity.
