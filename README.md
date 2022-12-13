@@ -1,0 +1,2 @@
+# open_swarms
+Task allocation in open robot swarms: perspectives for blockchain-based algorithms in hostile environments
